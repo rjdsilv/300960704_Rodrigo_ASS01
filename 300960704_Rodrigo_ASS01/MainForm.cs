@@ -10,7 +10,11 @@ namespace _300960704_Rodrigo_ASS01
         // The Calculator form to be opened.
         private CalculatorForm calculatorForm;
 
+        // The Printer form to be opened.
         private PrinterForm printerForm;
+
+        // The Temperature Converter form to be opened.
+        private FahrenheitToCelsiusForm fahrenheitToCelsiusForm;
 
         public MainForm()
         {
@@ -37,6 +41,17 @@ namespace _300960704_Rodrigo_ASS01
         {
             printerForm = new PrinterForm();
             printerForm.ShowDialog();
+        }
+
+        /// <summary>
+        /// When the button Show Temperature Converter is clicked, the temperature converter form will be instantiated and shown.
+        /// </summary>
+        /// <param name="sender">The event sender</param>
+        /// <param name="e">The event arguments</param>
+        private void ShowTemperatureConverterButton_Click(object sender, System.EventArgs e)
+        {
+            fahrenheitToCelsiusForm = new FahrenheitToCelsiusForm();
+            fahrenheitToCelsiusForm.ShowDialog();
         }
     }
 }
