@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.CalculatorButton = new System.Windows.Forms.Button();
+            this.ShowPrinterButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CalculatorButton
@@ -42,11 +43,23 @@
             this.CalculatorButton.UseVisualStyleBackColor = true;
             this.CalculatorButton.Click += new System.EventHandler(this.CalculatorButton_Click);
             // 
+            // ShowPrinterButton
+            // 
+            this.ShowPrinterButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowPrinterButton.Location = new System.Drawing.Point(154, 12);
+            this.ShowPrinterButton.Name = "ShowPrinterButton";
+            this.ShowPrinterButton.Size = new System.Drawing.Size(136, 59);
+            this.ShowPrinterButton.TabIndex = 1;
+            this.ShowPrinterButton.Text = "Show Printer Form";
+            this.ShowPrinterButton.UseVisualStyleBackColor = true;
+            this.ShowPrinterButton.Click += new System.EventHandler(this.ShowPrinterButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 82);
+            this.Controls.Add(this.ShowPrinterButton);
             this.Controls.Add(this.CalculatorButton);
             this.Name = "MainForm";
             this.Text = "Main Form";
@@ -57,6 +70,7 @@
         #endregion
 
         private System.Windows.Forms.Button CalculatorButton;
+        private System.Windows.Forms.Button ShowPrinterButton;
     }
 }
 

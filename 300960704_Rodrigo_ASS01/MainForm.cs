@@ -10,6 +10,8 @@ namespace _300960704_Rodrigo_ASS01
         // The Calculator form to be opened.
         private CalculatorForm calculatorForm;
 
+        private PrinterForm printerForm;
+
         public MainForm()
         {
             InitializeComponent();
@@ -24,6 +26,17 @@ namespace _300960704_Rodrigo_ASS01
         {
             calculatorForm = new CalculatorForm();
             calculatorForm.ShowDialog();
+        }
+
+        /// <summary>
+        /// When the button Show Printer Form is clicked, the printer form will be instantiated and shown.
+        /// </summary>
+        /// <param name="sender">The event sender</param>
+        /// <param name="e">The event arguments</param>
+        private void ShowPrinterButton_Click(object sender, System.EventArgs e)
+        {
+            printerForm = new PrinterForm();
+            printerForm.ShowDialog();
         }
     }
 }
