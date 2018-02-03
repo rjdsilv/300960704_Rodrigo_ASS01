@@ -31,6 +31,7 @@
             this.CalculatorButton = new System.Windows.Forms.Button();
             this.ShowPrinterButton = new System.Windows.Forms.Button();
             this.ShowTemperatureConverterButton = new System.Windows.Forms.Button();
+            this.ShowDrawingPanelButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CalculatorButton
@@ -66,11 +67,23 @@
             this.ShowTemperatureConverterButton.UseVisualStyleBackColor = true;
             this.ShowTemperatureConverterButton.Click += new System.EventHandler(this.ShowTemperatureConverterButton_Click);
             // 
+            // ShowDrawingPanelButton
+            // 
+            this.ShowDrawingPanelButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowDrawingPanelButton.Location = new System.Drawing.Point(206, 77);
+            this.ShowDrawingPanelButton.Name = "ShowDrawingPanelButton";
+            this.ShowDrawingPanelButton.Size = new System.Drawing.Size(188, 59);
+            this.ShowDrawingPanelButton.TabIndex = 3;
+            this.ShowDrawingPanelButton.Text = "Show Drawing Panel";
+            this.ShowDrawingPanelButton.UseVisualStyleBackColor = true;
+            this.ShowDrawingPanelButton.Click += new System.EventHandler(this.ShowDrawingPanelButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(401, 141);
+            this.Controls.Add(this.ShowDrawingPanelButton);
             this.Controls.Add(this.ShowTemperatureConverterButton);
             this.Controls.Add(this.ShowPrinterButton);
             this.Controls.Add(this.CalculatorButton);
@@ -85,6 +98,7 @@
         private System.Windows.Forms.Button CalculatorButton;
         private System.Windows.Forms.Button ShowPrinterButton;
         private System.Windows.Forms.Button ShowTemperatureConverterButton;
+        private System.Windows.Forms.Button ShowDrawingPanelButton;
     }
 }
 

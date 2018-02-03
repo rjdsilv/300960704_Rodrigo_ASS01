@@ -16,6 +16,9 @@ namespace _300960704_Rodrigo_ASS01
         // The Temperature Converter form to be opened.
         private FahrenheitToCelsiusForm fahrenheitToCelsiusForm;
 
+        // The drawing panel form to be opened.
+        private PainterForm painterForm;
+
         public MainForm()
         {
             InitializeComponent();
@@ -52,6 +55,17 @@ namespace _300960704_Rodrigo_ASS01
         {
             fahrenheitToCelsiusForm = new FahrenheitToCelsiusForm();
             fahrenheitToCelsiusForm.ShowDialog();
+        }
+
+        /// <summary>
+        /// When the button Show Drawing Panel is clicked, the drawing panel form will be instantiated and shown.
+        /// </summary>
+        /// <param name="sender">The event sender</param>
+        /// <param name="e">The event arguments</param>
+        private void ShowDrawingPanelButton_Click(object sender, System.EventArgs e)
+        {
+            painterForm = new PainterForm();
+            painterForm.ShowDialog();
         }
     }
 }
