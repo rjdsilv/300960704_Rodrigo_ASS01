@@ -74,7 +74,6 @@
             this.GreenRadioButton.Name = "GreenRadioButton";
             this.GreenRadioButton.Size = new System.Drawing.Size(66, 23);
             this.GreenRadioButton.TabIndex = 2;
-            this.GreenRadioButton.TabStop = true;
             this.GreenRadioButton.Text = "Green";
             this.GreenRadioButton.UseVisualStyleBackColor = true;
             this.GreenRadioButton.CheckedChanged += new System.EventHandler(this.GreenRadioButton_CheckedChanged);
@@ -86,7 +85,6 @@
             this.BlueRadioButton.Name = "BlueRadioButton";
             this.BlueRadioButton.Size = new System.Drawing.Size(56, 23);
             this.BlueRadioButton.TabIndex = 1;
-            this.BlueRadioButton.TabStop = true;
             this.BlueRadioButton.Text = "Blue";
             this.BlueRadioButton.UseVisualStyleBackColor = true;
             this.BlueRadioButton.CheckedChanged += new System.EventHandler(this.BlueRadioButton_CheckedChanged);
@@ -98,7 +96,6 @@
             this.RedRadioButton.Name = "RedRadioButton";
             this.RedRadioButton.Size = new System.Drawing.Size(52, 23);
             this.RedRadioButton.TabIndex = 0;
-            this.RedRadioButton.TabStop = true;
             this.RedRadioButton.Text = "Red";
             this.RedRadioButton.UseVisualStyleBackColor = true;
             this.RedRadioButton.CheckedChanged += new System.EventHandler(this.RedRadioButton_CheckedChanged);
@@ -123,7 +120,6 @@
             this.LargeRadioButton.Name = "LargeRadioButton";
             this.LargeRadioButton.Size = new System.Drawing.Size(63, 23);
             this.LargeRadioButton.TabIndex = 2;
-            this.LargeRadioButton.TabStop = true;
             this.LargeRadioButton.Text = "Large";
             this.LargeRadioButton.UseVisualStyleBackColor = true;
             this.LargeRadioButton.CheckedChanged += new System.EventHandler(this.LargeRadioButton_CheckedChanged);
@@ -146,7 +142,6 @@
             this.SmallRadioButton.Name = "SmallRadioButton";
             this.SmallRadioButton.Size = new System.Drawing.Size(62, 23);
             this.SmallRadioButton.TabIndex = 0;
-            this.SmallRadioButton.TabStop = true;
             this.SmallRadioButton.Text = "Small";
             this.SmallRadioButton.UseVisualStyleBackColor = true;
             this.SmallRadioButton.CheckedChanged += new System.EventHandler(this.SmallRadioButton_CheckedChanged);
